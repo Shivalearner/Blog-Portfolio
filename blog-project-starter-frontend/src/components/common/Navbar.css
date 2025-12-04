@@ -1,0 +1,23 @@
+.button-style {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+
+  background: linear-gradient(to right, #faa116, #df7320);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.button-style:hover {
+  background: linear-gradient(to right, #ff5f3e, #fb8c4f);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* Optional global navbar styles */
+.button-style {
+  @apply px-4 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-600 transition duration-200;
+}
